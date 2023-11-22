@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+}
+
+
+
+h1, h2 {
+    color: rgb(255, 255, 183);
+    text-shadow: black;
+}
+
+main {
+    padding: 20px;
+    margin: 15px;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+nav > a {
+    background-color: rgb(70, 70, 70);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: solid;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: rgb(27, 27, 27);
+    color: whitesmoke;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 193);
+    
+}
+
+.container { 
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+button {
+    border-radius: 5px;
+    box-shadow: black;
+}
+
+
+video {
+    width: 600px;
+}

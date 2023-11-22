@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope4All</title>
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <header>
+    <h1><img src="media/logo.png" alt="HopeForAll" width="200px"></h1>
+    <p><i>As Melhores bandas de rock da cena cristã você encontra aqui.</i></p>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="lancamentos.html">Lançamentos</a>
+    <a href="sobrenos.html">Sobre Nós</a>
+</nav>
+    <main>
+    <article>
+    <h1>Haste The Day - Burning Bridges</h1>
+
+    <img src="media/Haste_The_Day-Burning_Bridges-Frontal.jpg" alt="frontcover" width="300px" height="300px">
+
+    <div class="container">
+        <p><strong>Burning Bridges</strong> é o álbum de estreia do <a href="https://www.instagram.com/hastethedayofficial/" target="_blank">Haste the Day</a>. Foi lançado em 9 de março de 2004, pela Solid State Records. Videoclipes foram lançados para "The Closest Thing to Closure" e "American Love".</p>
+    </div>
+    <br>
+    <p><strong>American Love [Official Music Video]</strong></p>
+      <video id="playervideo" controls="controls">
+        <source src="media/americanlove.mp4" type="video/mp4"/>
+        seu navegador não suporta HTML5
+      </video>
+
+      <div>
+        <button onclick="document.getElementById('playervideo').play()">Play</button>
+        <button onclick="document.getElementById('playervideo').pause()">Pause</button>
+        <button onclick="document.getElementById('playervideo').volume+=0.1">Aumentar volume</button>
+        <button onclick="document.getElementById('playervideo').volume-=0.1">Diminuir volume</button>
+        <button onclick="document.getElementById('playervideo').volume=0">Mute</button>
+        <button onclick="document.getElementById('playervideo').volume+=1">UnMute</button>      
+      </div>
+
+    <p>Assista o video completo com legendas e se inscreva em nosso canal <a href="https://www.youtube.com/watch?v=dx-1kTvbYoU&ab_channel=HopeForAll">aqui</a></p>
+    </div>
+
+    <br>
+    
+    <p><strong>The Last Goodbye (Faixa 08)</strong></p>
+      <audio id="playeraudio" controls="controls">
+        <source src="media/The Last Goodbye.mp3" type="audio/mp3" />
+        seu navegador não suporta HTML5
+      </audio>
+
+      <div>
+        <button onclick="document.getElementById('playeraudio').play()">Play</button>
+        <button onclick="document.getElementById('playeraudio').pause()">Pause</button>
+        <button onclick="document.getElementById('playeraudio').volume+=0.1">Aumentar volume</button>
+        <button onclick="document.getElementById('playeraudio').volume-=0.1">Diminuir volume</button>
+        <button onclick="document.getElementById('playeraudio').volume=0">Mute</button>
+        <button onclick="document.getElementById('playeraudio').volume+=1">UnMute</button>      
+      </div>
+
+    <p>Ouça o album completo no <a href="https://open.spotify.com/intl-pt/album/3oAvjgTynVYSq1xWoeyrYz?si=sY6LCEIIRhOAal2nQTeeYQ">Spotify</a></p>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3oAvjgTynVYSq1xWoeyrYz?utm_source=generator&theme=0" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+</body>
+    <hr>
+<footer>
+    <p>Site criado por <a href="https://github.com/samerson-morais" target="_blank">Samerson Morais</a></p>
+</footer>
+</html>
