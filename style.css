@@ -19,6 +19,13 @@ h1, h2 {
     text-shadow: black;
 }
 
+p {
+    font-size: 16px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
 main {
     padding: 10px;
     margin: auto;
@@ -55,21 +62,19 @@ nav > a:hover {
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    
-}
-
-.container { 
-    width: 500px; 
-    margin-left: auto;
-    margin-right: auto; 
-    min-width: 320px;
-    max-width: 800px;
 }
 
 button {
-    padding: 6px;
+    padding: 5px;
     border-radius: 5px;
     box-shadow: black;
+    margin-bottom: 20px;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(27, 27, 27);
+    color: whitesmoke;
 }
 
 img.body {
@@ -77,12 +82,18 @@ img.body {
 }
 
 div.video {
-    
+    background-color: black;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    min-width: 350px;
+    max-width: 500px;
 }
 
 video {
-    width: 500px;
-    min-width: 300px;
+    padding: 10px;
+    margin: auto;
+    max-width: 380px;
 }
 
 hr {
