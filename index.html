@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,19 +21,22 @@
     <article>
     <h1>Haste The Day - Burning Bridges</h1>
 
-    <img src="media/Haste_The_Day-Burning_Bridges-Frontal.jpg" alt="frontcover" width="300px" height="300px">
+    <img src="media/Haste_The_Day-Burning_Bridges-Frontal.jpg" alt="frontcover" width="300px" height="300px" class="body">
+    <img src="media/Haste_The_Day-Burning_Bridges-Trasera.jpg" alt="backcover" width="350px" height="300px" class="body">
 
     <div class="container">
         <p><strong>Burning Bridges</strong> é o álbum de estreia do <a href="https://www.instagram.com/hastethedayofficial/" target="_blank">Haste the Day</a>. Foi lançado em 9 de março de 2004, pela Solid State Records. Videoclipes foram lançados para "The Closest Thing to Closure" e "American Love".</p>
     </div>
     <br>
-    <p><strong>American Love [Official Music Video]</strong></p>
+    <div class="mediaplayer">
+    <p><strong>American Love [Official Music Video]</strong></p>  
       <video id="playervideo" controls="controls">
-        <source src="media/americanlove.mp4" type="video/mp4"/>
+        <source src="media/americanlove.mp4" type="video/mp4" class="body"/>
         seu navegador não suporta HTML5
       </video>
 
-      <div>
+      <br>
+
         <button onclick="document.getElementById('playervideo').play()">Play</button>
         <button onclick="document.getElementById('playervideo').pause()">Pause</button>
         <button onclick="document.getElementById('playervideo').volume+=0.1">Aumentar volume</button>
@@ -47,28 +50,30 @@
 
     <br>
     
+    <div class="mediaplayer">
     <p><strong>The Last Goodbye (Faixa 08)</strong></p>
+    
       <audio id="playeraudio" controls="controls">
         <source src="media/The Last Goodbye.mp3" type="audio/mp3" />
         seu navegador não suporta HTML5
       </audio>
-
-      <div>
+      <br>
         <button onclick="document.getElementById('playeraudio').play()">Play</button>
         <button onclick="document.getElementById('playeraudio').pause()">Pause</button>
         <button onclick="document.getElementById('playeraudio').volume+=0.1">Aumentar volume</button>
         <button onclick="document.getElementById('playeraudio').volume-=0.1">Diminuir volume</button>
         <button onclick="document.getElementById('playeraudio').volume=0">Mute</button>
         <button onclick="document.getElementById('playeraudio').volume+=1">UnMute</button>      
+
       </div>
 
-    <p>Ouça o album completo no <a href="https://open.spotify.com/intl-pt/album/3oAvjgTynVYSq1xWoeyrYz?si=sY6LCEIIRhOAal2nQTeeYQ">Spotify</a></p>
+    <p>Ouça o album completo aqui:</p>
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3oAvjgTynVYSq1xWoeyrYz?utm_source=generator&theme=0" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
 </body>
     <hr>
 <footer>
-    <p>Site criado por <a href="https://github.com/samerson-morais" target="_blank">Samerson Morais</a></p>
+    <p>Site criado por <a href="https://github.com/samerson-morais" target="_blank">Samerson Morais</a> a pedido do <a href="https://www.instagram.com/matheus1.bat/">Batata</a></p>
 </footer>
 </html>

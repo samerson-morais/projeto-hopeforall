@@ -57,10 +57,23 @@ a {
 }
 
 button {
+    margin: 5px;
+    padding: 5px;
     border-radius: 5px;
     box-shadow: black;
 }
 
+img.body {
+    border: 0.5px solid rgb(255, 255, 183);   
+}
+
+div.mediaplayer {
+    background-color: black;
+    padding: 5px;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+}
 
 video {
     width: 600px;
