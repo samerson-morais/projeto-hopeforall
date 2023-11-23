@@ -10,12 +10,13 @@
 <body> 
     <header>
     <h1><img src="media/logo.png" alt="HopeForAll" width="200px"></h1>
-    <p><i>As Melhores bandas de rock da cena cristã você encontra aqui.</i></p>
+    <p><i>As Melhores bandas de rock e subgêneros da cena cristã você encontra aqui.</i></p>
+    <br>
 </header>
 <nav>
     <a href="index.html">Home</a>
-    <a href="lancamentos.html">Lançamentos</a>
-    <a href="sobrenos.html">Sobre Nós</a>
+    <a href="lancamentos.html">Shop</a>
+    <a href="sobrenos.html">About Us</a>
 </nav>
 <br>
     <main>
@@ -37,55 +38,68 @@
           <p>Devin Chaulk – drums, vocals</p>
         <br>
       <img src="media/hastetheday.jpg" alt="hastetheday" width="400px" class="body">
+
     <br>
     <br>
-    <h2><strong>American Love [Official Music Video]</strong></h2> 
+
+    <h3><strong>American Love [Official Music Video]</strong></h3> 
+
     <div class="video"> 
       <video id="video" controls="controls">
         <source src="media/americanlove.mp4" type="video/mp4"/>
         seu navegador não suporta HTML5
       </video>
 
-      <br>
+    <br>
 
-        <button onclick="document.getElementById('video').play()">Play</button>
-        <button onclick="document.getElementById('video').pause()">Pause</button>
-        <button onclick="document.getElementById('video').volume+=0.1">Aumentar volume</button>
-        <button onclick="document.getElementById('video').volume-=0.1">Diminuir volume</button>
-        <button onclick="document.getElementById('video').volume=0">Mute</button>
-        <button onclick="document.getElementById('video').volume+=1">UnMute</button>      
-      </div>
-  <br>
-    <p>Assista o video completo com legendas e se inscreva em nosso canal no YouTube <a href="https://www.youtube.com/watch?v=dx-1kTvbYoU&ab_channel=HopeForAll">Hope For All</a></p>
+      <button onclick="document.getElementById('playeraudio').play()">Play</button> 
+      <button onclick="document.getElementById('playeraudio').pause()">Pause</button>
+      <button onclick="document.getElementById('playeraudio').volume+=0.1">Vol + </button>
+      <button onclick="document.getElementById('playeraudio').volume-=0.1">Vol - </button>
+      <button onclick="document.getElementById('playeraudio').volume=0">Mute</button>
+      <button onclick="document.getElementById('playeraudio').volume+=1">Unmute</button>     
+    </div>
+
+    <br>
+
+    <p>Assista o video completo com legendas e se inscreva em nosso canal no YouTube <a href="https://www.youtube.com/watch?v=dx-1kTvbYoU&ab_channel=HopeForAll">Hope For All</a>.</p>
     </div>
 
     <br>
     
     <div class="playeraudio">
+
     <p><strong>The Last Goodbye (Faixa 08)</strong></p>
-    
+
       <audio id="playeraudio" controls="controls">
         <source src="media/The Last Goodbye.mp3" type="audio/mp3" />
         seu navegador não suporta HTML5
       </audio>
+
       <br>
-        <button onclick="document.getElementById('playeraudio').play()">Play</button>
+
+        <button onclick="document.getElementById('playeraudio').play()">Play</button> 
         <button onclick="document.getElementById('playeraudio').pause()">Pause</button>
-        <button onclick="document.getElementById('playeraudio').volume+=0.1">Aumentar volume</button>
-        <button onclick="document.getElementById('playeraudio').volume-=0.1">Diminuir volume</button>
+        <button onclick="document.getElementById('playeraudio').volume+=0.1">Vol + </button>
+        <button onclick="document.getElementById('playeraudio').volume-=0.1">Vol - </button>
         <button onclick="document.getElementById('playeraudio').volume=0">Mute</button>
-        <button onclick="document.getElementById('playeraudio').volume+=1">UnMute</button>      
+        <button onclick="document.getElementById('playeraudio').volume+=1">Unmute</button>      
 
       </div>
 
+      <br>
+
     <p>Ouça o album completo aqui:</p>
+
     <br>
+
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3oAvjgTynVYSq1xWoeyrYz?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
     </article>
     </main>
 </body>
-    <hr>
+<br>
+<hr>
 <footer>
     <p><i>Site criado por <a href="https://github.com/samerson-morais" target="_blank">Samerson Morais</a> a pedido de <a href="https://www.instagram.com/matheus1.bat/">Batata</i> </a></p>
 </footer>
