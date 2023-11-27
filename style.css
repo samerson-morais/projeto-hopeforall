@@ -73,18 +73,18 @@ a {
 }
 
 button {
+    text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.185);
     padding: 5px;
-    border-radius: 5px;
-    box-shadow: black;
-    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
     transition-duration: 0.5s;
-    box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.486);
+
 }
 
 button:hover {
-    background-color: rgb(27, 27, 27);
+    background-color: rgba(0, 0, 0, 0.877);
     color: whitesmoke;
-    box-shadow: 0.1em 0.1em 0.5em rgba(255, 255, 255, 0.336);
+    box-shadow: 0.1em 0.1em 0.5em rgba(255, 255, 255, 0.226);
 }
 
 img.body {
@@ -133,3 +133,4 @@ footer {
     
     width: auto;
 }
+
